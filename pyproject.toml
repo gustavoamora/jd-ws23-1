@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ws1-23"
+version = "0.1.0"
+description = "Projeto de ETL"
+authors = ["gustavoamora <gustavoamora@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.7"
+pandas = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
